@@ -1,0 +1,87 @@
+/* Estilos generales */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  text-align: center;
+  background-color: #36393F; /* Color de fondo similar a Discord */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  color: #FFF; /* Color del título */
+  font-size: 32px; /* Tamaño de fuente del título */
+  margin-bottom: 20px; /* Espacio inferior del título */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra del texto */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px; /* Espacio superior de la lista de archivos */
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #7289DA; /* Color de los enlaces */
+  text-decoration: none;
+  font-size: 18px; /* Tamaño de fuente de los enlaces */
+  transition: color 0.3s ease; /* Transición de color suave */
+}
+
+a:hover {
+  color: #FFF; /* Color de los enlaces al pasar el mouse */
+}
+
+/* Estilos de fondo */
+.container {
+  background-color: #36393F; /* Color de fondo similar a Discord */
+}
+
+ul {
+  background-color: rgba(255, 255, 255, 0.1); /* Color de fondo semitransparente */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra del contenedor */
+}
+
+/* Estilos del botón */
+.button-container {
+  margin-top: 20px; /* Espacio superior del contenedor del botón */
+}
+
+.chat-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 50px;
+  background-color: #7289DA; /* Color de fondo del botón similar a Discord */
+  color: #FFF; /* Color del texto del botón */
+  font-size: 24px;
+  text-decoration: none;
+  transition: background-color 0.3s ease; /* Transición de color de fondo suave */
+}
+
+.chat-button:hover {
+  background-color: #677BC4; /* Color de fondo del botón al pasar el mouse */
+}
+
+.button-icon {
+  margin-right: 10px; /* Espacio derecho del icono */
+}
+
+/* Estilos de la segunda página */
+.archivos h1 {
+  animation-name: none; /* Elimina la animación del título */
+}
